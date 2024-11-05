@@ -9,6 +9,7 @@ export default {
                 bebas: ['Bebas Neue', 'sans-serif'],
                 poppins: ['Poppins', 'sans-serif'],
                 raleway: ['Raleway', 'sans-serif'],
+                inter: ['Inter', 'sans-serif'],
             },
             backgroundImage: {
                 'header-linear-gradiant':

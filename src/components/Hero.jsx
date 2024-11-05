@@ -5,8 +5,8 @@ import Button from './Button';
 const Hero = () => {
     return (
         <div className="container">
-            <div className="relative h-[939px] pb-40 flex items-center">
-                <div className="mt-[104px]">
+            <div className="relative h-[939px] flex items-center">
+                <div className="">
                     <div className="bg-title-text-gradiant z-50 relative w-[830px]">
                         <span className="font-bebas text-[120px] text-white font-medium uppercase leading-[130px] backdrop-blur-[44px]">
                             Taste the authentic
@@ -17,7 +17,7 @@ const Hero = () => {
                         </span>
                     </div>
                     <div className="w-[559px]">
-                        <p className="font-roboto font-normal text-2xl text-white py-[38px]">
+                        <p className="font-roboto font-normal text-2xl text-white mt-[16px] mb-[38px]">
                             Among the best Saudi chefs in the world, serving you
                             something beyond flavor.
                         </p>
@@ -31,7 +31,7 @@ const Hero = () => {
                     <img
                         src={heroImage}
                         alt="Hero Image"
-                        className="w-[700px] h-[649px] object-cover max-w-full rotate-[360deg]"
+                        className="w-[700px] h-[649px] object-cover max-w-full scale-x-[-1]"
                     />
                     <img
                         src={flowerImage}
