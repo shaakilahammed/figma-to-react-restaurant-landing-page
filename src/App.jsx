@@ -1,4 +1,5 @@
 import About from './components/About';
+import Contact from './components/Contact';
 import Header from './components/Header';
 import PopularFood from './components/PopularFood';
 
@@ -8,6 +9,7 @@ function App() {
             <Header />
             <About />
             <PopularFood />
+            <Contact />
         </>
     );
 }
